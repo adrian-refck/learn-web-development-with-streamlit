@@ -24,10 +24,19 @@ if wahl == "Eisenbahnen in der DDR":
                 if auswahl4 == "Br 601":
                     st.write("Du hast recht")
                     st.image("https://www.eriksmail.de/Templates/100502GummibahnAltona/143211Altona020510.jpg", width=1000)
-                    auswahl5 = st.selectbox("Wähle die Br:", ["Br 103" , "Br 143 ", "Br 401" , "Br1442" , "Br 52" ])
+                    auswahl5 = st.selectbox("Wähle die Br:", ["Br 103" , "Br 143", "Br 401" , "Br1442" , "Br 52" ])
                     if auswahl5 == "Br 143":
                         st.write("Du hast recht")
                         st.image("https://img.fotocommunity.com/dr-v100-in-mecklenburg-1-219818a9-7615-47a1-9555-8b7c86cf7eb5.jpg?width=1000", width=1000)
                         auswahl6 = st.selectbox("Wähle die Br:", ["Br V100" , "Br V220", "Br 121", "Br 545", "Br 442"])
                         if auswahl6 == "Br V100":
-                            st.write("Du hast den Test bestanden")
+                            st.header("Du hast den Test bestanden")
+                            st.video("https://youtu.be/WQYN2P3E06s")
+
+else:
+    st.write("Tolle Wahl")
+    st.image("https://www.bahnbilder.de/1200/karwendelmassivaus-innsbruck-kommend-rollt-2442-1089108.jpg", width=1000) 
+    auswahl7 = st.selectbox("Wähle die Br:", ["Br 2442" , "Br 423", "Br 146" , "Br 101", "Br 145"])
+    if auswahl7 == "Br 2442":
+        st.write("Du hast Recht")
+        st.image("https://www.modelleisenbahnanlage.com/wp-content/uploads/2009/02/br103-rot.jpg", width=1000)
