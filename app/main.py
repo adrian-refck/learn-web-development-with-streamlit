@@ -31,7 +31,7 @@ if wahl == "Eisenbahnen in der DDR":
                         auswahl6 = st.selectbox("Wähle die Br:", ["Br V150" , "Br V220", "Br 121", "Br V100", "Br 442"])
                         if auswahl6 == "Br V100":
                             st.header("Du hast den Test bestanden")
-                            st.video("https://youtu.be/WQYN2P3E06s")
+                            st.video("https://youtu.be/WQYN2P3E06s", autoplay=True)
 
 else:
     st.write("Tolle Wahl")
