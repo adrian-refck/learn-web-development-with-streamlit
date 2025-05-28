@@ -29,3 +29,5 @@ if wahl == "Eisenbahnen in der DDR":
                         st.write("Du hast recht")
                         st.image("https://img.fotocommunity.com/dr-v100-in-mecklenburg-1-219818a9-7615-47a1-9555-8b7c86cf7eb5.jpg?width=1000", width=1000)
                         auswahl6 = st.selectbox("Wähle die Br:", ["Br V100" , "Br V220", "Br 121", "Br 545", "Br 442"])
+                        if auswahl6 == "Br V100":
+                            st.write("Du hast den Test bestanden")
