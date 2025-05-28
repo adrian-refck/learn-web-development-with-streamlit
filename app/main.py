@@ -28,7 +28,7 @@ if wahl == "Eisenbahnen in der DDR":
                     if auswahl5 == "Br 143":
                         st.write("Du hast recht")
                         st.image("https://img.fotocommunity.com/dr-v100-in-mecklenburg-1-219818a9-7615-47a1-9555-8b7c86cf7eb5.jpg?width=1000", width=1000)
-                        auswahl6 = st.selectbox("Wähle die Br:", ["Br V100" , "Br V220", "Br 121", "Br 545", "Br 442"])
+                        auswahl6 = st.selectbox("Wähle die Br:", ["Br V150" , "Br V220", "Br 121", "Br V100", "Br 442"])
                         if auswahl6 == "Br V100":
                             st.header("Du hast den Test bestanden")
                             st.video("https://youtu.be/WQYN2P3E06s")
