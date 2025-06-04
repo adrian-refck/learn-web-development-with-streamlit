@@ -70,7 +70,12 @@ if wahl == "Moderne Deutschen Eisenbahnen":
                         if auswahl11 == "Br 105":
                             st.write("Sehr gut")
                             st.image("https://live.staticflickr.com/65535/48909750751_85a6599766_b.jpg" , width=3000)
-                            auswahl12 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 2441", "Br 109", "Br V220", "Br 445"])
+                            auswahl12 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 445", "Br 109", "Br V220", "Br V150"])
                             if auswahl12 == "Br 445":
                                 st.write("Jawoll")
+                                st.image("https://lh3.googleusercontent.com/proxy/ct2XBdFchB-Rse4os65Oncyv3RKrE-BpJSFdmhWOsZJ2C64gQQrd0qS-iS7N9jj3s8NxwucikSzGn6xnRcbaZau78F7_R7I-vcJ4oU0", width=1000)
+                                auswahl13 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 109", "Br V220", "Br 218", "Br 110"])
+                                if auswahl13 == "Br 218":
+                                    st.write("Du hast den Test bestanden")
+                                    st.image("https://www.bahnbilder.de/bilder/110-466-mit-einem-ire-karlsruhe-77067.jpg", width=1000)
                                 
