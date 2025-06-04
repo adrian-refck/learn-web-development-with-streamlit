@@ -10,26 +10,13 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://www.br.de/berge/wandern/04_aussicht-vom-edelsberg-100~_v-img__16__9__xl_-d31c35f8186ebeb80b0cd843a7c267a0e0c81647.jpg?version=d7cc0");
+        background-image: url("https://cdn-thumbs.ohmyprints.net/1/a3717c2525dbfcda3f38fa4bc3d735d8/817x600/thumbnail/fit.jpg");
         background-size: cover;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 wahl = st.selectbox("Wähle deinen beforzugten Test:", ["Bitte wählen" , "Eisenbahnen in der DDR", "Moderne Deutschen Eisenbahnen"])
@@ -79,3 +66,11 @@ if wahl == "Moderne Deutschen Eisenbahnen":
                     if auswahl10 == "Br 412":
                         st.write("Genau")
                         st.image("https://www.larsbrueggemann.de/fotos-eb-28-630px/529ewd-098-foto-ice-l-lauenbrueck.jpg")
+                        auswahl11 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 2441", "Br 109", "Br V220", "Br 105"])
+                        if auswahl11 == "Br 105":
+                            st.write("Sehr gut")
+                            st.image("https://live.staticflickr.com/65535/48909750751_85a6599766_b.jpg" , width=3000)
+                            auswahl12 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 2441", "Br 109", "Br V220", "Br 445"])
+                            if auswahl12 == "Br 445":
+                                st.write("Jawoll")
+                                
