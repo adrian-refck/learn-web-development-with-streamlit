@@ -21,7 +21,7 @@ st.markdown(
 
 wahl = st.selectbox("Wähle deinen beforzugten Test:", ["Bitte wählen" , "Eisenbahnen in der DDR", "Moderne Deutschen Eisenbahnen"])
 if wahl == "Eisenbahnen in der DDR":
-    st.image("https://y7b2e7b4.delivery.rocketcdn.me/wp-content/uploads//2019/09/6-Triebwagen-VT172-2.jpg" , width=1000) 
+    st.image("https://image.jimcdn.com/app/cms/image/transf/dimension=530x10000:format=jpg/path/s39c9c999a872678e/image/iaa6faff1b0cee4f0/version/1724003276/image.jpg" , width=1000) 
     auswahl = st.selectbox("Wähle die Br:", ["Br 601" , "Br 172", "Br 7"])
     if auswahl == "Br 172":
         st.write("Du hast Recht")
@@ -78,4 +78,25 @@ if wahl == "Moderne Deutschen Eisenbahnen":
                                 if auswahl13 == "Br 218":
                                     st.write("Du hast den Test bestanden")
                                     st.image("https://www.bahnbilder.de/bilder/110-466-mit-einem-ire-karlsruhe-77067.jpg", width=1000)
-                                
+                                    auswahl14 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 109", "Br V220", "Br 110", "Br 101"])
+                                    if auswahl14 == "Br 110":
+                                        st.write("Richtig")
+                                        st.image("https://www.oehlerfoto.de/bilder/safran.jpg", width=1000)
+                                        auswahl15 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 109", "Br V220", "Br 101", "Br 612"])
+                                        if auswahl15 == "Br 612":
+                                            st.write("Test bestanden")
+                                            st.image("https://static.maerklin.de/damcontent/5e/c3/5ec338e601b2ac5516c271cdd356b3d51660629608.jpg" , width=1000)
+                                            auswahl16 = st.selectbox("Wähle die Br:", ["Br 145" , "Br 109", "Br 193", "Br 101", "Br V220"])
+                                            if auswahl16 == "Br 193":
+                                                st.write("Du hast den Test bestanden")
+                                                st.image("https://upload.wikimedia.org/wikipedia/commons/4/47/V200_033_F%C3%BCrth.jpg", width=1001)
+                                                auswahl17 = st.selectbox("Wähle die Br:", ["Br 145" , "Br V200", "Br V220", "Br 109", "Br 178"])
+                                                if auswahl17 == "Br V200":
+                                                    st.write("Du hast den Test bestanden")
+                                                    st.video("https://youtu.be/2fZVG0AZe2k", autoplay=True)
+                                                    auswahl18 = st.selectbox("Wähle den Zug", ["ICE 1" , "ICE X", "Maglev", "Transrapid", "ICE T"])
+                                                    if auswahl18 == "Transrapid":
+                                                        st.write("Du hast den Test bestanden")
+                                                        
+
+                    
