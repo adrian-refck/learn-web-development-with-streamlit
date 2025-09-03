@@ -27,3 +27,6 @@ if name:
             st.write("Schade! 😢")
         if sterne >= 3:
             st.write("Wow! 😁")
+
+
+
