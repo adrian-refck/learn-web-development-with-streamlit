@@ -104,3 +104,5 @@ if wahl == "Eisenbahnen in Europa":
     st.write("Gute Wahl")
     st.image("https://upload.wikimedia.org/wikipedia/commons/c/c5/TGV_Modane-Paris_%C3%A0_St-Jean-de-la-Porte_en_soir%C3%A9e_%28%C3%A9t%C3%A9_2021%29.JPG", width=1000) 
     auswahl19 = st.selectbox("Wähle die Br:", ["" , "TGV" , "ICE", "Eurostar", "Thalys", "Frecciarossa"])
+    if auswahl19 == "TGV":
+        st.write("Du hast Recht")
