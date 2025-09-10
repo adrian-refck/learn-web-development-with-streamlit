@@ -19,6 +19,7 @@ st.markdown(
 )
 
 
+
 wahl = st.selectbox("Wähle deinen beforzugten Test:", ["Bitte wählen" , "Eisenbahnen in der DDR", "Moderne Deutschen Eisenbahnen"])
 if wahl == "Eisenbahnen in der DDR":
     st.image("https://image.jimcdn.com/app/cms/image/transf/dimension=530x10000:format=jpg/path/s39c9c999a872678e/image/iaa6faff1b0cee4f0/version/1724003276/image.jpg" , width=1000) 
