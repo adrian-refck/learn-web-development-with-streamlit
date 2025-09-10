@@ -20,7 +20,7 @@ st.markdown(
 
 
 
-wahl = st.selectbox("Wähle deinen beforzugten Test:", ["Bitte wählen" , "Eisenbahnen in der DDR", "Moderne Deutschen Eisenbahnen"])
+wahl = st.selectbox("Wähle deinen beforzugten Test:", ["Bitte wählen" , "Eisenbahnen in der DDR", "Moderne Deutschen Eisenbahnen", "Eisenbahnen in Europa"])
 if wahl == "Eisenbahnen in der DDR":
     st.image("https://image.jimcdn.com/app/cms/image/transf/dimension=530x10000:format=jpg/path/s39c9c999a872678e/image/iaa6faff1b0cee4f0/version/1724003276/image.jpg" , width=1000) 
     auswahl = st.selectbox("Wähle die Br:", ["Br 601" , "Br 172", "Br 7"])
@@ -100,4 +100,7 @@ if wahl == "Moderne Deutschen Eisenbahnen":
                                                         st.write("Du hast den Test bestanden")
                                                         st.video("https://youtu.be/OJcbBtwnhlY?list=RDOJcbBtwnhlY", autoplay=True)
 
-                    
+if wahl == "Eisenbahnen in Europa":
+    st.write("Gute Wahl")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/c/c5/TGV_Modane-Paris_%C3%A0_St-Jean-de-la-Porte_en_soir%C3%A9e_%28%C3%A9t%C3%A9_2021%29.JPG", width=1000) 
+    auswahl19 = st.selectbox("Wähle die Br:", ["" , "TGV" , "ICE", "Eurostar", "Thalys", "Frecciarossa"])
