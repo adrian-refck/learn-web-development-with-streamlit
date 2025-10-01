@@ -106,3 +106,7 @@ if wahl == "Eisenbahnen in Europa":
     auswahl19 = st.selectbox("Wähle die Br:", ["" , "TGV" , "ICE", "Eurostar", "Thalys", "Frecciarossa"])
     if auswahl19 == "TGV":
         st.write("Du hast Recht")
+        st.image("https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2023/12/18132206/shutterstock_2168909371-min-1024x664.jpg", width=1000)
+        auswahl20 = st.selectbox("Wähle die Br:", ["" , "TGV" , "Br407", "Eurostar", "Br406", "Frecciarossa"]) 
+        
+
